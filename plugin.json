@@ -1,0 +1,23 @@
+{
+  "pluginId": "com.liangkw.ghostty",
+  "pluginName": "Ghostty 启动器",
+  "version": "0.1.0",
+  "description": "在 uTools 中快速启动 Ghostty 终端",
+  "author": "liangkw16",
+  "homepage": "https://github.com/liangkw16/utools-ghostty",
+  "logo": "logo.png",
+  "main": "src/index.html",
+  "preload": "src/preload.js",
+  "platform": ["darwin"],
+  "pluginSetting": {
+    "single": true,
+    "height": 120
+  },
+  "features": [
+    {
+      "code": "ghostty",
+      "explain": "打开 Ghostty 终端",
+      "cmds": ["ghostty", "gt"]
+    }
+  ]
+}
